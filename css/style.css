@@ -46,3 +46,22 @@ nav{
     font-weight: 900;
     
 }
+/* hero section start  */
+#hero{
+    height: 93vh;
+    background: #151515;
+    display: flex;
+    align-items: center;
+}
+#hero h2{
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: 'Italiana', serif;
+}
+#hero h4{
+    font-size: 25px;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+}
