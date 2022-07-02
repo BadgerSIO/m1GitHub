@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background: greenyellow;
+    padding: 10px 0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.navLinks{
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+}
+.navLinks ul li{
+    display: inline;
+    list-style-type: none;
+}
+.navLinks a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
