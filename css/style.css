@@ -3,18 +3,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
-nav{
-    background: greenyellow;
-    padding: 10px 0;
-}
 .container{
     width: 1280px;
     margin: 0 auto;
 }
+/* Nav css start  */
+nav{
+    background: greenyellow;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+.brandLogo h2{
+    font-family: 'Italiana', serif;
+}
 .navBar{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    align-items: center;
+    
 }
 .navLinks{
     background: greenyellow;
@@ -25,11 +32,17 @@ nav{
     display: inline;
     list-style-type: none;
 }
+.navLinks li a:hover{
+    background: #333;
+    color: #fff;
+}
 .navLinks a{
+    font-family: 'Italiana', serif;
     text-decoration: none;
     padding: 10px 30px;
     color: #333;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
+    
 }
