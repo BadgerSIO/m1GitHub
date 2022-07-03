@@ -6,6 +6,7 @@
 .container{
     width: 1280px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 /* Nav css start  */
 nav{
@@ -47,6 +48,10 @@ nav{
     font-weight: 900;
     transition: 0.5s;
     
+}
+.active{
+    background: #151515;
+    color: #fff!important;
 }
 /* hero section start  */
 #hero{
