@@ -57,7 +57,7 @@ nav{
 }
 #hero h2{
     color: #fff;
-    font-size: 45px;
+    font-size: 65px;
     text-transform: capitalize;
     font-family: 'Italiana', serif;
 }
@@ -66,4 +66,5 @@ nav{
     color: yellowgreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0;
+    font-weight: 300;
 }
