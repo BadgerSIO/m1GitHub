@@ -32,6 +32,7 @@ nav{
 .navLinks ul li{
     display: inline;
     list-style-type: none;
+    margin: 0 10px;
 }
 .navLinks li a:hover{
     background: #151515;
@@ -42,7 +43,7 @@ nav{
     font-family: 'Italiana', serif;
     text-decoration: none;
     padding: 10px 30px;
-    color: #333;
+    color: #151515;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 900;
